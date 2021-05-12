@@ -10,7 +10,7 @@ int main()
   b=27;
   c=57;
   d=67;
-  e=a+b=c=d;
-  prinf("sum of foue number is %d",e);
+  e=a+b+c+d;
+  printf("sum of foue number is %d",e);
   return 0;
 }
