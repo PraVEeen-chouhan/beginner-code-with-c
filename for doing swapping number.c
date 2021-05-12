@@ -4,7 +4,7 @@ int main()
   int a,b,c;
   a=30;
   b=90;
-  printf("Value of a is %d\n Value of b is %d",a,b);
+  printf("Value of a is %d\n Value of b is %d \n",a,b);
   //veriable of c is temporary veriable
   //value of a assgin to c whish is temporary veriable
   c=a;
