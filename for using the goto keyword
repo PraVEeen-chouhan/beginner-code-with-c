@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+ int r,s,t;
+ for(r=0; r<=3; t++)
+ {
+   for(j=0; s<=3; s++)
+   {
+     for(t=0; t<=3; t++)
+     {
+       if(r==3 && s==3 && t==3)
+       goto out;
+       else
+       printf("%d %d %d \n",r,s,t);
+     }
+   }
+ } 
+  
+     printf("you are Out of the loop  \n");
+     
+}
