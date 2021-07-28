@@ -1,0 +1,16 @@
+#include<stdio.h>
+int add();       //function declaration
+void main()
+  {
+    int c;
+    c=add();       //function calling
+    printf("The result is%d",c);
+    getch();
+    }
+   int add()      //function definition
+   {
+     int a=4,b=34;
+     int c;
+     c=a+b;
+     return c;
+     }
