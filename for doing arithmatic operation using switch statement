@@ -1,0 +1,47 @@
+#include<stdio.h>
+int main()
+{
+ int choice,p,q,add,subt,multiply, division;
+ printf(" 1  Addition \n");
+ printf(" 2  Subtraction \n");
+ printf(" 3 Multiply \n");
+ printf(" 4 Division \n");
+ printf("Exit \n");
+ 
+ printf("Enter two number :");
+ scanf("%d %d",&p,&q);
+ 
+ printf("Enter your choice");
+ scanf("%d",&choice);
+ 
+ switch (choice)
+ {
+   case 1:
+   add=a+b;
+   printf("addition of two no  is %d",sum);
+   break;
+   
+   case 2:
+   subt=a-b;
+   printf("difference of two no is %d",sub);
+   break;
+   
+   case 3:
+   multiply=a*b;
+   printf("Multiplication of two no is %d",multiply);
+   break;
+   
+   case 4:
+   division=a/b; 
+   printf("Division of two no is %d",division);
+   break;
+   
+   case 5:
+   exit(0);
+  
+   default :
+   printf("choice is not valid");
+   break;
+ }
+   return 0;
+}
