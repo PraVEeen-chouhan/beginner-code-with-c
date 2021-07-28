@@ -1,0 +1,27 @@
+#include<stdio.h>
+void main()
+{
+int no;
+printf("Type any value");
+scanf("%d",&no);
+ 
+switch (no)
+{
+  case 1:
+  printf("now in case 1");
+  break;
+  
+  case 2:
+  printf("now in case 2");
+  break;
+  
+  case 3:
+  printf("nowin case 3");
+  break;
+  
+  default:
+  printf("now in default");
+  break;
+}
+
+}
